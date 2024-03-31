@@ -1,0 +1,278 @@
+body {
+    background-color: #F4EAF1; /* Very light pink to match theme */
+}
+  
+  /* Navigation Styles */
+  .navbar {
+    background: linear-gradient(to bottom, hsl(284, 44%, 80%), #ffffff);
+    border-bottom: none;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #f8d347;
+  }
+  
+  .nav-link {
+    color: #f8d347;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #fff;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background: url('images/barbershop-hero.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Services Section Styles */
+  #services {
+    background-color: #fff;
+  }
+  
+  #services h2 {
+    color: #333;
+    padding-bottom: 20px;
+  }
+  
+  /* Booking Section Styles */
+  #booking {
+    background-color: #e9ecef;
+  }
+  
+  #booking h2 {
+    color: #333;
+    padding-bottom: 20px;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    background-color: #fff;
+  }
+  
+  #contact h2 {
+    color: #333;
+    padding-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #f8d347;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 50px 0;
+    }
+  }
+ /* Contact Information Styles */
+.contact-info p {
+    text-align: left;
+  }
+  /* Styling for Slogan */
+.lead {
+    font-size: 1.5rem; 
+  }
+  
+  /* Styling for Address */
+  .address {
+    font-size: 1 rem;
+  }
+  .small-image {
+        max-width: 172px; 
+    }
+    .img-dry {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .mb-2 {
+        margin-bottom: 0.5rem; 
+    }
+    
+/* Hero Section Styles */
+.hero {
+    background: linear-gradient(to right, #DDBDD5, #c1a8eb); /* Gradient from light pink to purple */
+    padding: 100px 0;
+    color: #fff; /* White text color */
+  }
+  
+  .hero-content {
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent white to blend with the background */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Slogan and Address within Hero Section */
+  .hero .slogan h1, .hero .slogan p, .hero .address p {
+    color: #fff; 
+  }
+  /* Services and Staff Section Styles */
+#services {
+    background-color: #F4EAF1; /* Very light pink background */
+    color: #5D4157; /* A darker shade for text that matches the purple theme */
+  }
+  
+  .service {
+    background-color: #ffffff; /* White background for the service boxes */
+    border: 1px solid #A283D6; /* Purple border to match the theme */
+    color: #5D4157; /* Purple text color for consistency */
+  }
+  
+  /* Barber Profiles */
+  .barber {
+    background-color: #ffffff; /* White background for the barber profiles */
+    border: 1px solid #A283D6; /* Purple border to match the theme */
+    color: #5D4157; /* Purple text color for consistency */
+  }
+/* Booking Section Styles */
+#booking {
+    background-color: #F4EAF1; /* Very light pink background */
+    color: #5D4157; /* A darker shade for text that matches the purple theme */
+  }
+  
+  #booking-form {
+    background-color: #ffffff; /* White background for form */
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #A283D6; /* Purple border to match the theme */
+  }
+  
+  #booking-form .btn-primary {
+    background-color: #A283D6; /* Purple background for the button */
+    border-color: #A283D6; /* Purple border for the button */
+  }
+  
+  #booking-form .btn-primary:hover {
+    background-color: #9179B6; /* Slightly lighter purple for hover effect */
+    border-color: #9179B6;
+  }
+/* Contact/Get In Touch Section Styles */
+#contact {
+    background-color: #F4EAF1; /* Very light pink background */
+    color: #5D4157; /* A darker shade for text that matches the purple theme */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #5D4157; /* A darker purple for the footer to provide contrast */
+    color: #F4CAE0; /* Light pink for text */
+  }
+  
+  footer a {
+    color: #F4CAE0; /* Light pink for links */
+  }
+  
+  footer a:hover {
+    color: #ffffff; /* White for hover effect on links */
+  }
+      
+  .hero .slogan h1,
+.hero .slogan p,
+.hero .address p {
+  color: #5D4157; /* A darker shade for text that matches the purple theme */
+}
+.logo-image {
+    max-width: 200px; 
+    border: 5px solid #dcb8d9; 
+    padding: 10px;
+    display: block; 
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+/* Custom Footer Styles */
+.custom-footer {
+    background-color: #F4EAF1; 
+    color: #333; 
+  }
+
+  #payment .btn-primary {
+    background-color: #A283D6; /* Purple background for the button */
+    border-color: #A283D6; /* Purple border for the button */
+  }
+
+  #chatbot-toggle-button {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px;  /* Adjust as needed */
+    z-index: 1001; /* Should be higher than the chatbot to be clickable */
+    /* Add more styles as per your design requirements */
+}
+
+#chatbot-iframe-container {
+  position: fixed; /* Fixed positioning relative to the viewport */
+  bottom: 0;      /* Aligns the container to the bottom of the viewport */
+  right: 0;       /* Aligns the container to the right of the viewport */
+  z-index: 1000;  /* Ensures it stays above other elements */
+}
+
+#help-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #A283D6; /* Your theme's purple color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  z-index: 1001; /* Above the chatbot */
+}
+
+#help-button:hover {
+  background-color: #9179B6; /* Lighter purple on hover */
+}
+
+/* The chatbot iframe container should be positioned bottom right */
+#chatbot-iframe-container {
+  position: fixed;
+  bottom: 80px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  z-index: 1000; /* Ensures it stays above other elements */
+}
+
+#chatbot-iframe-container iframe {
+  border-radius: 20px; /* Adjust as needed for rounded corners */
+  border: none; /* Removes the border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for a 'floating' effect */
+}
+
+/* Optional: Styling the container that wraps the iframe for additional control over appearance */
+#chatbot-iframe-container {
+  border-radius: 20px; /* Ensure the container itself also has rounded corners */
+  overflow: hidden; /* Ensures the iframe's corners don't stick out */
+  /* ... other styles ... */
+}
+
+#chatbot-iframe-container {
+  position: fixed; /* Keep the chatbot positioned relative to the viewport */
+  bottom: 70px; /* Position it 20px from the bottom */
+  right: 20px; /* Position it 20px from the right */
+  z-index: 1000; /* Ensure it's above other elements */
+  display: none; /* Start hidden until the help button is clicked */
+}
+
+#chatbot-iframe-container iframe {
+  width: 300px; /* Smaller width */
+  height: 400px; /* Smaller height */
+  border-radius: 20px; /* Rounded corners */
+  border: none; /* No border for the iframe */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  overflow: hidden; /* Ensures nothing spills out from the rounded corners */
+}
